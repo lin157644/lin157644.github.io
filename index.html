@@ -2,10 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <meta name="description" content="希望透過本網站，能令各位審查委員與教授們更加認識我~">
+    <meta name="author" content="SeanLin,linxs1010@gmail.com">
+    <meta property="og:title" content="XiangShun's profile"/>
+    <meta property="og:description" content="希望透過本網站，能令各位審查委員與教授們更加認識我~"/>
+    <meta property="og:type" content="profile"/>
+    <meta property="og:image" content=""/>
+    <link rel="stylesheet" type="text/css" href="css/all.css" />
+    <title>XiangShun's profile</title>
 </head>
 <body>
-    <p>Hello There</p>
+    <!-- Sidebar -->
+    <div class="wrapper">
+        <nav id="sidebar">
+            <div class="sidebarHeader">
+                <p class="h3">Navigation</p>
+            </div>
+            <ul class="list-unstyled">
+                <p>Xiang-Shun</p>
+                <li>
+                    <a href="/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="/index.html">Profile</a>
+                </li>
+                <li>
+                    <a data-bs-toggle="collapse" href="#projectSubmenu" role="button" aria-expanded="false" aria-controls="projectSubmenu">Projects</a>
+                    <ul class="collapse list-unstyled" id="projectSubmenu">
+                        <li>
+                            <a href="#">Discord Bot</a>
+                        </li>
+                        <li>
+                            <a href="#">RPI</a>
+                        </li>
+                        <li>
+                            <a href="#">Web</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/index.html">Contect</a>
+                </li>
+            </ul>
+            <footer>
+                <p>©LxS 2021 All rights reserved</p>
+                <p>Last Update:20210309</p>
+            </footer>
+        </nav>
+    
+        <!-- Top Navigation Bar -->
+        <div id="content">
+            <nav id="topNavbar" class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button type="button" id="sidebarToggleBtn" class="btn btn-info" onclick="sidebarToggle()">
+                        <i class="fas fa-align-left"></i>
+                        <span>Toggle Sidebar</span>
+                    </button>
+                </div>
+            </nav>
+            <p class="h3">Something TODO TODO TODO TODO TODO TODO TODO TODO TODO</p>
+            <ul class="list-unstyled">
+                <li>Text 1</li>
+                <li>Text 2</li>
+                <li>Text 3</li>
+                <li>Text 4</li>
+                <li>Text 5</li>
+                <li>Text 6</li>
+                <li>Text 7</li>
+                <li>Text 8</li>
+                <li>Text 9</li>
+                <li>Text 10</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="js/main.js"></script>
+    <script src="node_modules\bootstrap\dist\js\bootstrap.bundle.min.js"></script>
 </body>
 </html>
